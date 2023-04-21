@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="app.css">
+
+    <title>Responsive Table</title>
+</head>
+
+<body>
+    <h1>Responsive <span>&lt;<span id="table">Table</span>&gt;</span></h1>
+    <div class="container">
+        <table>
+            <caption>
+                Students statistics
+            </caption>
+
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+
+            <tr>
+                <td data-cell="rank">1</td>
+                <td data-cell="name">Domenic</td>
+                <td data-cell="points">88,110</td>
+                <td data-cell="team">dcode</td>
+            </tr>
+
+            <tr>
+                <td data-cell="rank">2</td>
+                <td data-cell="name">Sally</td>
+                <td data-cell="points">72,400</td>
+                <td data-cell="team">Students</td>
+            </tr>
+
+            <tr>
+                <td data-cell="rank">3</td>
+                <td data-cell="name">Nick</td>
+                <td data-cell="points">52,300</td>
+                <td data-cell="team">dcode</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
